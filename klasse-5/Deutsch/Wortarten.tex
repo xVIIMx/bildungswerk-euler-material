@@ -10,6 +10,8 @@
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{multirow}
 
 \geometry{margin=2cm}
 
@@ -21,9 +23,9 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\setlength{\headheight}{24pt}
-\lhead{{\headerfont\raisebox{-0.25\height}{\includegraphics[height=27pt]{logo.png}}}}
-\rhead{{\headerfont Deutsch -- Klasse 5}}
+\setlength{\headheight}{27pt}
+\lhead{{\headerfont\raisebox{-0.25\height}{\includegraphics[height=27pt]{../../assets/logo.png.png}}}}
+\rhead{{\headerfont Deutsch - Klasse 5}}
 \cfoot{{\headerfont\small \thepage}}
 
 \titleformat{\section}
@@ -76,41 +78,25 @@
 
 \begin{center}
     {\headerfont\LARGE\textbf{Wortarten}}\\[4pt]
-    {\headerfont\large Das Nomen und seine Merkmale}
 \end{center}
 
 \vspace{6pt}
 \linie
 
-\section*{Lernziele}
+\section*{Das Nomen und seine Merkmale}
 
-Nach dieser Einheit kannst du:
-
-\begin{itemize}
-    \item Nomen im Satz erkennen.
-    \item Artikel und Adjektive als Hinweise auf Nomen nutzen.
-    \item bestimmte und unbestimmte Artikel unterscheiden.
-    \item das Genus eines Nomens bestimmen.
-    \item Maskulinum, Femininum und Neutrum erklären.
-    \item Singular und Plural unterscheiden.
-    \item Pluralformen von Nomen bilden.
-\end{itemize}
-
+% --------------------------------------------------
 \section*{1. Was ist ein Nomen?}
 
-Nomen sind Wörter für Menschen, Tiere, Pflanzen, Dinge, Gefühle oder Gedanken.
+Nomen sind Wörter mit denen du Menschen, Tiere, Pflanzen, Dinge, Gefühle oder Gedanken beschreibst.
 
 \textbf{Beispiele:}
 
-Mensch: der Lehrer, die Schülerin
-
-Tier: der Hund, die Katze
-
-Ding: der Tisch, das Buch
-
-Gefühl: die Freude, die Angst
-
-Gedanke: die Idee, der Wunsch
+Mensch: der Lehrer, die Schülerin\\  
+Tier: der Hund, die Katze  \\
+Ding: der Tisch, das Buch \\ 
+Gefühl: die Freude, die Angst  \\
+Gedanke: die Idee, der Wunsch  \\
 
 \begin{merksatz}
 Nomen schreibt man immer groß.
@@ -118,279 +104,1555 @@ Nomen schreibt man immer groß.
 
 \section*{2. Wie erkenne ich ein Nomen?}
 
-Ein Nomen steht oft mit einem Begleitwort. Besonders häufig sind Artikel.
-
-\textbf{Bestimmte Artikel:} der, die, das
-
-\textbf{Unbestimmte Artikel:} ein, eine
-
-Auch Adjektive können vor einem Nomen stehen.
+Ein Nomen steht oft mit einem Begleitwort. Besonders häufig sind Artikel (Der/Die/Das). \\
+Auch Adjektive (Beschreibungen) können vor einem Nomen stehen.
 
 \textbf{Beispiele:}
 
-der Hund
-
-eine schöne Blume
-
+der Hund\\
+eine schöne Blume\\ 
 das alte Haus
 
 \subsection*{Die Artikel-Adjektiv-Probe}
 
-Wenn du unsicher bist, ob ein Wort ein Nomen ist, prüfst du:
+Wenn du unsicher bist, stell dir folgende Fragen:
 
-Kann ich einen Artikel davor setzen?
-
+Kann ich einen Artikel davor setzen?  
 Kann ich ein Adjektiv davor setzen?
 
+\noindent
+\begin{tabular}{p{0.48\textwidth} p{0.48\textwidth}}
+
+% LINKS
 \textbf{Beispiel 1: Freude}
 
-die Freude
-
+\begin{tabular}{@{}l@{\hspace{0.8em}}l@{}}
+\begin{tabular}{@{}l@{}}
+die Freude\\
 die große Freude
+\end{tabular}
+&
+\(\left.\begin{array}{c} \\[0.6em] \end{array}\right\}\quad\text{Nomen}\)
+\end{tabular}
 
-Also ist \textbf{Freude} ein Nomen.
-
+&
+% RECHTS
 \textbf{Beispiel 2: laufen}
 
-der laufen
-
+\begin{tabular}{@{}l@{\hspace{0.8em}}l@{}}
+\begin{tabular}{@{}l@{}}
+der laufen\\
 der schnelle laufen
+\end{tabular}
+&
+\(\left.\begin{array}{c} \\[0.6em] \end{array}\right\}\quad\text{kein Nomen}\)
+\end{tabular}
 
-Das funktioniert nicht. Also ist \textbf{laufen} kein Nomen.
+\\
+\end{tabular}
+
+\vspace{1em}
 
 \begin{merksatz}
-Wenn ein Artikel und ein Adjektiv sinnvoll vor ein Wort passen, ist es meistens ein Nomen.
+Wenn Artikel und Adjektiv passen, ist es meistens ein Nomen.
 \end{merksatz}
 
+\newpage
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Unterstreiche alle Nomen:\\\\
+Der Hund läuft durch den Garten.\\
+Die Schülerin liest ein Buch.\\
+Das kleine Kind spielt mit dem roten Ball.\\
+Am Morgen öffnet Sophie das Fenster.\\
+Die Freude über den tollen Sieg war groß.\\
+
+\end{enumerate}
+
+% --------------------------------------------------
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Prüfe mit der Artikel-Adjektiv-Probe:\\\\
+Angst, rennen, Idee, schön
+\end{enumerate}
+
+% --------------------------------------------------
 \section*{3. Bestimmte und unbestimmte Artikel}
 
-Bestimmte Artikel benutzt man, wenn eine bestimmte Person oder Sache gemeint ist.
+Bestimmte Artikel benutzt man, wenn etwas genau bekannt ist.
 
-\textbf{Beispiel:}
-
+\textbf{Beispiel:}  
 Der Hund bellt laut.
 
-Hier weiß man, welcher Hund gemeint ist.
+Unbestimmte Artikel benutzt man, wenn etwas noch unklar ist.
 
-Unbestimmte Artikel benutzt man, wenn eine Person oder Sache noch nicht genau bestimmt ist.
-
-\textbf{Beispiel:}
-
+\textbf{Beispiel:}  
 Ich sehe einen Hund.
 
-Hier ist noch nicht klar, welcher Hund gemeint ist.
+\subsection*{Übungen – Grundniveau}
 
+\begin{enumerate}
+\item Setze den passenden Artikel ein: \_\_\_ Tisch, \_\_\_ Lampe, \_\_\_ Haus
+\item Setze ein: Ich sehe \_\_\_ Katze. \_\_\_ Katze sitzt auf dem Zaun.
+\end{enumerate}
+
+% --------------------------------------------------
 \section*{4. Das Genus}
 
-Jedes Nomen hat ein grammatisches Geschlecht. Dieses grammatische Geschlecht nennt man \textbf{Genus}.
+Jedes Nomen hat ein grammatisches Geschlecht.
 
-Es gibt drei Genera:
-
-\textbf{Maskulinum:} der Mann, der Tisch
-
-\textbf{Femininum:} die Frau, die Lampe
-
-\textbf{Neutrum:} das Kind, das Haus
+\textbf{Maskulinum:} der Mann\\  
+\textbf{Femininum:} die Frau\\  
+\textbf{Neutrum:} das Kind  
 
 \begin{achtung}
-Das grammatische Geschlecht ist nicht immer dasselbe wie das natürliche Geschlecht.
-
-Beispiel: \textbf{das Mädchen}
-
-Ein Mädchen ist natürlich weiblich. Grammatisch ist das Wort aber Neutrum, weil der Artikel \textbf{das} ist.
+Grammatisches Geschlecht ist nicht gleich natürliches Geschlecht.  
+Beispiel: das Mädchen
 \end{achtung}
 
+\newpage
 \subsection*{Zusammengesetzte Nomen}
 
-Bei zusammengesetzten Nomen bestimmt immer das letzte Wort das Genus.
+Bei zusammengesetzten Nomen bestimmt das letzte Wort das Genus.
 
-\textbf{Beispiele:}
-
-die Schule + der Hof = der Schulhof
-
-das Haus + die Tür = die Haustür
-
-der Apfel + der Baum = der Apfelbaum
+die Schule + der Hof = der Schulhof  
 
 \begin{merksatz}
-Bei zusammengesetzten Nomen zählt für das Genus immer das letzte Wort.
+Das letzte Wort entscheidet.
 \end{merksatz}
 
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Bestimme das Genus:\\\\
+Baum - Der Baum (Maskulinum)\\
+Schule - \\
+Fenster - \\
+Joghurt - \\
+Laptop - \\
+E-Mail - \\
+Tunnel - \\
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Bestimme das Genus:
+
+Schulhof\\
+Haustür\\
+Kinderzimmer\\
+Apfelbaum
+\end{enumerate}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Erkläre, warum „Mädchen“ Neutrum ist.
+\end{enumerate}
+\newpage
+
+% --------------------------------------------------
 \section*{5. Der Numerus}
 
-Der Numerus gibt an, ob ein Nomen in der Einzahl oder Mehrzahl steht.
-
-\textbf{Singular} bedeutet Einzahl.
-
-\textbf{Plural} bedeutet Mehrzahl.
+Der Numerus legt die Anzahlform eines Wortes festlegt.\\
+Singular = Einzahl\\
+Plural = Mehrzahl\\  
 
 \textbf{Beispiele:}
 
-der Hund = Singular
-
-die Hunde = Plural
-
-das Buch = Singular
-
-die Bücher = Plural
+der Hund → die Hunde  \\
+das Buch → die Bücher  
 
 \subsection*{Typische Pluralendungen}
 
-Nomen können verschiedene Pluralendungen haben.
-
-\textbf{-e:} der Tisch -- die Tische
-
-\textbf{-er:} das Kind -- die Kinder
-
-\textbf{-en:} die Frau -- die Frauen
-
-\textbf{-n:} die Blume -- die Blumen
-
-\textbf{-s:} das Auto -- die Autos
-
-Manche Nomen verändern auch den Vokal:
-
-der Apfel -- die Äpfel
-
-das Buch -- die Bücher
+-e, -er, -en, -n, -s  
 
 \begin{achtung}
-Nicht jedes Nomen hat eine Pluralform.
-
-Beispiele: der Schnee, die Milch, das Glück, die Ruhe
+Beachte: Nicht alle Nomen haben einen Plural.  \\
+Beispiel: Milch, Schnee
 \end{achtung}
 
-\section*{6. Typische Fehler}
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Bestimme den Numerus: \\
+der Hund -\\
+die Bücher -\\
+das Kind - \\
+
+\item Bilde den Plural:\\
+der Tisch -\\
+das Kind -\\
+die Frau -\\
+der Apfel -\\
+das Buch -\\
+die Blume -
+\end{enumerate}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Welche Wörter haben keinen Plural (Streiche diese durch):\\ Milch, Tisch, Glück, Schnee
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{6. Typische Fehler zu Nomen}
 
 \begin{itemize}
-    \item Viele Schüler glauben, dass nur Dinge Nomen sind, die man anfassen kann. Das ist falsch. Auch Gefühle und Gedanken können Nomen sein.
-    \item Viele Schüler verwechseln natürliches und grammatisches Geschlecht.
-    \item Bei zusammengesetzten Nomen wird oft fälschlich der erste Teil betrachtet.
-    \item Pluralformen werden oft falsch gebildet, weil es im Deutschen verschiedene Pluralendungen gibt.
+\item Nomen sind nicht nur Dinge → auch Gefühle!
+\item Natürlich vs. grammatisch wird verwechselt
+\item Falsche Pluralbildung
+\end{itemize}
+
+\section*{Die Deklination}
+
+% --------------------------------------------------
+\section*{1. Was bedeutet Deklination?}
+
+Ein Nomen kann seine Form verändern, je nachdem welche Funktion es im Satz hat.
+
+Diese Veränderung nennt man \textbf{Deklination}.
+
+Das bedeutet: Ein Nomen wird \textbf{gebeugt}.
+
+\textbf{Beispiel:}
+
+der Hund  
+des Hundes  
+dem Hund  
+den Hund  
+
+\begin{merksatz}
+Deklination bedeutet: Ein Nomen in verschiedene Kasus setzen.
+\end{merksatz}
+
+\section*{2. Die vier Kasus}
+
+Im Deutschen gibt es vier Kasus:
+
+\textbf{Nominativ} (1. Fall) \\  
+\textbf{Genitiv} (2. Fall)  \\
+\textbf{Dativ} (3. Fall)  \\
+\textbf{Akkusativ} (4. Fall)  
+
+% --------------------------------------------------
+\section*{3. Die Kasusfragen}
+
+Jeder Kasus hat eine typische Frage.
+
+\textbf{Nominativ:} Wer oder was?  
+\textbf{Genitiv:} Wessen?  
+\textbf{Dativ:} Wem?  
+\textbf{Akkusativ:} Wen oder was?  
+
+\textbf{Beispiel:}
+
+\textbf{Der Hund} läuft.
+
+Wer läuft? → der Hund → Nominativ
+
+Das ist das Spielzeug \textbf{des Hundes}.
+
+Wessen Spielzeug ist das? → des Hundes → Genitiv
+
+Ich gebe \textbf{dem Hund} einen Knochen.
+
+Wem gebe ich einen Knochen? → dem Hund → Dativ
+
+Ich sehe \textbf{den Hund.}
+
+Wen sehe ich? → den Hund → Akkusativ
+
+\begin{merksatz}
+Die Kasusfragen helfen dir, den Fall zu bestimmen.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Bestimme den Kasus:
+
+Der Lehrer erklärt die Aufgabe.\\
+Der Lehrer: Nominativ\\
+die Aufgabe: Akkusativ\\
+
+Ich sehe den Ball.\\
+Ich:\\
+den Ball:\\
+
+Das Buch liegt auf dem Tisch.\\
+Das Buch:\\
+dem Tisch:
+
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Stelle die passende Frage:
+
+Ich gebe dem Kind das Buch.
+
+→ \_\_\_\_\_\_ gebe ich das Buch?
+
+Der Hund frisst das Fleisch.
+
+→ \_\_\_\_\_\_ frisst das Fleisch?
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{4. Kasus im Satz bestimmen}
+
+Um den Kasus zu bestimmen, gehst du so vor:
+
+\begin{enumerate}
+\item Suche das Nomen
+\item Stelle die passende Frage
+\item Bestimme den Kasus
+\end{enumerate}
+
+\textbf{Beispiel:}
+
+Ich gebe dem Lehrer das Buch.
+
+Wem gebe ich das Buch? → dem Lehrer → Dativ
+
+\begin{achtung}
+Viele Schüler verwechseln Dativ und Akkusativ.  
+Achte genau auf die Frage!
+\end{achtung}
+
+\newpage
+
+\section*{Das Adjektiv}
+
+% --------------------------------------------------
+\section*{1. Was ist ein Adjektiv?}
+
+Adjektive beschreiben Eigenschaften von Nomen.
+
+\textbf{Beispiele:}
+
+der \textbf{große} Hund  
+das \textbf{alte} Haus  
+eine \textbf{schöne} Blume  
+
+\begin{merksatz}
+Adjektive beschreiben, wie etwas ist.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Unterstreiche die Adjektive:
+
+Der große Hund läuft schnell.
+
+Das alte Haus steht am See.
+
+\item Ergänze ein passendes Adjektiv:
+
+der \_\_\_\_ Baum
+
+das \_\_\_\_ Buch
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{2. Adjektive und Deklination}
+
+Adjektive verändern ihre Form, wenn sie vor einem Nomen stehen.
+
+\textbf{Beispiele:}
+
+\begin{itemize}
+\item \textbf{Nominativ:}\\
+der groß\textbf{e} Hund\\
+die groß\textbf{e} Katze\\
+das groß\textbf{e} Haus
+
+\item \textbf{Akkusativ:}\\
+den groß\textbf{en} Hund\\
+die groß\textbf{e} Katze\\
+das groß\textbf{e} Haus
+
+\item \textbf{Dativ:}\\
+dem groß\textbf{en} Hund\\
+der groß\textbf{en} Katze\\
+dem groß\textbf{en} Haus
+\end{itemize}
+
+\begin{merksatz}
+Adjektive passen sich an das Nomen an (Genus, Numerus, Kasus).
+\end{merksatz}
+\newpage
+
+% --------------------------------------------------
+\section*{3. Die Steigerung von Adjektiven}
+
+Adjektive kann man steigern.
+
+\textbf{Positiv:} groß  
+\textbf{Komparativ:} größer  
+\textbf{Superlativ:} am größten  
+
+\begin{merksatz}
+Positiv, Komparativ und Superlativ sind die drei Steigerungsformen.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Steigere:
+
+schnell → \_\_\_\_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_\_\_\_
+
+alt → \_\_\_\_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Bilde Sätze:
+
+Der Hund ist \_\_\_\_\_\_\_\_ (schnell) als die Katze.
+
+Das Haus ist am \_\_\_\_\_\_\_\_ (groß).
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{4. Vergleiche mit „wie“ und „als“}
+
+\textbf{wie} benutzt man bei Gleichheit.  
+\textbf{als} benutzt man bei Unterschieden.
+
+\textbf{Beispiele:}
+
+Ich bin so groß \textbf{wie} du.  
+Ich bin größer \textbf{als} du.  
+
+\begin{merksatz}
+„wie“ = gleich  
+„als“ = Unterschied
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Setze ein: wie oder als
+
+Ich bin größer \_\_\_ du.
+
+Ich bin so schnell \_\_\_ du.
+\end{enumerate}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Schreibe zwei eigene Vergleiche:
+
+Ein Satz mit „wie“
+
+Ein Satz mit „als“
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{5. Unregelmäßige Steigerung}
+
+Manche Adjektive werden unregelmäßig gesteigert.
+
+\textbf{Beispiele:}
+
+gut → besser → am besten  
+viel → mehr → am meisten  
+gern → lieber → am liebsten  
+
+\begin{achtung}
+Diese Formen musst du auswendig lernen.
+\end{achtung}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Steigere:
+
+gut → \_\_\_\_ → \_\_\_\_
+
+viel → \_\_\_\_ → \_\_\_\_
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{6. Nicht steigerbare Adjektive}
+
+Einige Adjektive kann man nicht steigern.
+
+\textbf{Beispiele:}
+
+tot, perfekt, einzig, leer  
+
+Man kann nicht sagen: „toter“ oder „perfekter“.
+
+\begin{achtung}
+Nicht alle Adjektive sind steigerbar.
+\end{achtung}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Entscheide:
+
+steigerbar oder nicht?
+
+tot, groß, perfekt, schön, leer
+
+\item Verbessere:
+
+der perfektere Plan
+
+der toteste Vogel
+\end{enumerate}
+
+\newpage
+
+\section*{Die Präposition}
+
+% --------------------------------------------------
+\section*{1. Was ist eine Präposition?}
+
+Präpositionen sind Wörter, die zeigen, \textbf{wo}, \textbf{wann} oder \textbf{wie} etwas passiert.
+\textbf{Beispiele:}
+
+auf dem Tisch\\  
+unter dem Stuhl\\  
+mit dem Freund\\  
+für dich\\  
+
+\begin{merksatz}
+Präpositionen stehen oft vor einem Nomen und bestimmen den Kasus.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Unterstreiche die Präpositionen:
+
+Das Buch liegt auf dem Tisch.
+
+Ich gehe mit meinem Freund zur Schule.
+
+Die Katze sitzt unter dem Stuhl.
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{2. Präpositionen bestimmen den Kasus}
+
+Eine Präposition bestimmt immer den Kasus des Nomens.
+
+\textbf{Beispiel:}
+
+Ich denke an dich.  
+
+→ an wen? → Akkusativ  
+
+\begin{merksatz}
+Die Präposition entscheidet über den Kasus.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Bestimme den Kasus:
+
+Ich denke an dich.
+
+Ich spreche mit dem Lehrer.
+
+Das Geschenk ist für den Freund.
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{3. Wechselpräpositionen (Dativ oder Akkusativ)}
+
+Einige Präpositionen können zwei Fälle haben:
+
+\textbf{auf, in, an, unter, über, vor, hinter, neben, zwischen}
+
+👉 \textbf{Wohin? → Akkusativ}  
+👉 \textbf{Wo? → Dativ}
+
+\textbf{Beispiele:}
+
+Ich lege das Buch auf den Tisch. (Wohin? → Akkusativ)
+
+Das Buch liegt auf dem Tisch. (Wo? → Dativ)
+
+\begin{merksatz}
+Bewegung → Akkusativ  
+Ruhe/Ort → Dativ
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Bestimme den Kasus:
+
+Ich gehe in die Schule.
+
+Ich bin in der Schule.
+
+Ich lege das Heft auf den Tisch.
+
+Das Heft liegt auf dem Tisch.
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Setze richtig ein:
+
+Ich gehe in \_\_\_ Schule.
+
+Ich bin in \_\_\_ Schule.
+
+\item Erkläre den Unterschied:
+
+Ich setze mich auf den Stuhl.
+
+Ich sitze auf dem Stuhl.
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{4. Verben mit festen Präpositionen}
+
+Manche Verben gehören immer mit einer bestimmten Präposition zusammen.
+
+\textbf{Beispiele:}
+
+denken an  
+warten auf  
+sprechen mit  
+sich freuen auf  
+
+\begin{achtung}
+Diese Verbindungen musst du lernen.
+\end{achtung}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Ergänze die passende Präposition:
+
+Ich denke \_\_\_ dich.
+
+Ich warte \_\_\_ den Bus.
+
+Ich spreche \_\_\_ meinem Freund.
+\end{enumerate}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Bilde eigene Sätze mit:
+
+denken an  
+
+warten auf  
+
+sprechen mit  
+
+\item Unterstreiche die Präposition und bestimme den Kasus:
+
+Ich freue mich auf den Urlaub.
+
+Ich spreche mit der Lehrerin.
+
+Ich warte auf den Bus.
+\end{enumerate}
+
+\newpage
+
+\section*{Das Pronomen}
+
+% --------------------------------------------------
+\section*{1. Personalpronomen}
+
+Personalpronomen stehen für Nomen.
+
+\textbf{Beispiele:}
+
+der Lehrer → er  
+die Katze → sie  
+das Kind → es  
+
+\textbf{Personalpronomen:}
+
+ich, du, er, sie, es, wir, ihr, sie  
+
+\begin{merksatz}
+Personalpronomen ersetzen ein Nomen.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Ersetze das Nomen:
+
+der Mond → \_\_\_
+
+die Blume → \_\_\_
+
+das Kind → \_\_\_
+
+\item Unterstreiche die Personalpronomen:
+
+Er läuft schnell.
+
+Sie liest ein Buch.
+
+Wir gehen zur Schule.
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{2. Possessivpronomen}
+
+Possessivpronomen zeigen Besitz an.
+
+\textbf{Beispiele:}
+
+mein Buch  
+dein Hund  
+sein Haus  
+
+\textbf{Zuordnung:}
+
+ich → mein  
+du → dein  
+er → sein  
+sie → ihr  
+es → sein  
+wir → unser  
+ihr → euer  
+sie → ihr  
+
+\begin{merksatz}
+Possessivpronomen zeigen, wem etwas gehört.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Ordne zu:
+
+ich → \_\_\_  
+du → \_\_\_  
+wir → \_\_\_  
+
+\item Ergänze:
+
+Das ist \_\_\_ Buch. (ich)
+
+Das ist \_\_\_ Haus. (er)
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Ersetze:
+
+Das Buch von mir → \_\_\_ Buch  
+
+Der Hund von dir → \_\_\_ Hund  
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{3. Nomen durch Pronomen ersetzen}
+
+Man kann Nomen durch Personalpronomen ersetzen, um Wiederholungen zu vermeiden.
+
+\textbf{Beispiel:}
+
+Der Hund läuft. Der Hund ist schnell.  
+
+→ Der Hund läuft. \textbf{Er} ist schnell.
+
+\begin{merksatz}
+Pronomen vermeiden Wiederholungen.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Ersetze das Nomen:
+
+Die Katze schläft. Die Katze ist müde.
+
+Der Junge spielt. Der Junge ist schnell.
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Schreibe um:
+
+Sophie liest ein Buch. Sophie versteht das Buch.
+
+Der Lehrer erklärt die Aufgabe. Der Lehrer hilft den Schülern.
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{4. Deklination der Personalpronomen}
+
+Personalpronomen verändern ihre Form je nach Kasus.
+
+\textbf{Beispiel:}
+
+\begin{tabular}{ll}
+Nominativ & ich \\
+Genitiv & meiner \\
+Dativ & mir \\
+Akkusativ & mich \\
+\end{tabular}
+
+\begin{merksatz}
+Auch Personalpronomen werden je nach Kasus verändert.
+\end{merksatz}
+
+\subsection*{Übungen – Grundniveau}
+
+\begin{enumerate}
+\item Ergänze die Formen:
+
+\begin{tabular}{llll}
+Nominativ & Genitiv & Dativ & Akkusativ \\
+ich & \_\_\_ & \_\_\_ & \_\_\_ \\
+du & \_\_\_ & \_\_\_ & \_\_\_ \\
+\end{tabular}
+
+\item Setze richtig ein:
+
+Ich sehe \_\_\_ (ich).
+
+Du gibst \_\_\_ (ich) das Buch.
+\end{enumerate}
+
+\subsection*{Übungen – Vertiefung}
+
+\begin{enumerate}
+\item Bestimme den Kasus:
+
+Ich sehe dich.
+
+Du gibst mir das Buch.
+
+Das ist meiner.
+
+\item Ergänze das richtige Pronomen:
+
+Der Lehrer sieht \_\_\_ (du).
+
+Der Lehrer hilft \_\_\_ (du).
+\end{enumerate}
+
+\subsection*{Übungen – Transfer}
+
+\begin{enumerate}
+\item Schreibe eigene Sätze mit:
+
+ich im Akkusativ  
+
+du im Dativ  
+
+wir im Nominativ  
+
+\item Erkläre bei einem deiner Sätze, welchen Kasus das Pronomen hat.
+\end{enumerate}
+
+\newpage
+\section*{Zusatzaufgaben}
+
+% --------------------------------------------------
+\subsection*{Aufgabe 1 – Nomen deklinieren}
+
+Setze die Nomen in alle vier Fälle (Singular oder Plural beachten):
+
+\begin{enumerate}
+\item meine Tasche  
+\item dein Fahrrad  
+\item unsere Bücher  
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 2 – Kasus erkennen}
+
+Bestimme den Kasus der unterstrichenen Nomen:
+
+\begin{enumerate}
+\item Der \_\_\_Junge\_\_\_ spielt im Garten.  
+\item Ich sehe den \_\_\_Ball\_\_\_.  
+\item Die Mutter gibt dem \_\_\_Kind\_\_\_ ein Geschenk.  
+\item Das ist das Haus des \_\_\_Lehrers\_\_\_.  
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 3 – Vergangenheit erkennen}
+
+Nenne drei Zeitformen, mit denen man über die Vergangenheit sprechen kann:
+
+\vspace{20pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 4 – Wortarten bestimmen}
+
+Bestimme die Wortart der markierten Wörter:
+
+Die \textbf{neugierigen} Kinder \textbf{spielen} auf dem \textbf{großen} Schulhof.  
+\textbf{Ihre} Freunde lachen \textbf{laut}.  
+
+\vspace{10pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 5 – Plural bilden}
+
+Bilde den Plural und schreibe alle vier Fälle:
+
+das Auto
+
+Nom.: \_\_\_\_\_\_\_\_\_\_\_\_  
+Gen.: \_\_\_\_\_\_\_\_\_\_\_\_  
+Dat.: \_\_\_\_\_\_\_\_\_\_\_\_  
+Akk.: \_\_\_\_\_\_\_\_\_\_\_\_  
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 6 – Wortarten im Satz}
+
+Bestimme die Wortarten aller Wörter:
+
+Sein Bruder schenkte ihr ein neues Buch im Laden.
+
+\vspace{20pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 7 – Pronomen}
+
+Setze die richtige Form des Personalpronomens ein:
+
+\begin{enumerate}
+\item 3. Person Singular Neutrum (Nominativ): \_\_\_\_  
+\item 1. Person Plural (Akkusativ): \_\_\_\_  
+\item 2. Person Singular (Genitiv): \_\_\_\_  
+\item 3. Person Singular Maskulinum (Dativ): \_\_\_\_  
+\item 3. Person Plural (Genitiv): \_\_\_\_  
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 8 – Verbformen bestimmen}
+
+Bestimme Person, Numerus und Zeitform:
+
+\begin{enumerate}
+\item Die Kinder haben lange gespielt.  
+\item Lara hatte ihre Hausaufgaben vergessen.  
+\item Es schneite den ganzen Tag.  
+\item Kommt schnell nach Hause!  
+\item Wir schreiben morgen eine Arbeit.  
+\item Ich verstehe die Aufgabe nicht.  
+\item Ihr habt einen Film gesehen.  
+\end{enumerate}
+
+\newpage
+\section*{Weitere Aufgaben}
+
+% --------------------------------------------------
+\subsection*{Aufgabe 9 – Präpositionen korrigieren}
+
+Im folgenden Text sind einige Präpositionen falsch verwendet.
+
+\textbf{Aufgabe:}
+\begin{itemize}
+\item Streiche die falschen Präpositionen.
+\item Schreibe den Text korrekt auf.
+\end{itemize}
+
+\textbf{Text:}
+
+Mit seiner Angst auf schlechten Noten hat Leon bei jeder Arbeit ein komisches Gefühl unter dem Bauch.  
+Manchmal schläft er deshalb bei Klassenarbeiten nicht gut und wird schnell unsicher, wenn andere Schüler stolz in ihre Ergebnisse sprechen.
+
+\vspace{30pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 10 – Genus verstehen}
+
+\begin{enumerate}
+\item Ergänze die lateinischen Begriffe:
+
+männlich = \_\_\_\_\_\_\_\_\_  
+weiblich = \_\_\_\_\_\_\_\_\_  
+sächlich = \_\_\_\_\_\_\_\_\_  
+
+\item Wodurch erkennt man das Genus eines Nomens?
+
+\vspace{10pt}
+
+\item Nenne zwei Arten von Artikeln und gib jeweils drei Beispiele mit Nomen an.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 11 – Nomen einordnen}
+
+Ordne die Nomen in die passenden Kategorien ein:
+
+Baum, Angst, Lehrer, Tisch, Mut, Katze, Idee, Stuhl, Freund
+
+\textbf{Lebewesen:}
+
+\vspace{10pt}
+
+\textbf{Gegenstände:}
+
+\vspace{10pt}
+
+\textbf{Begriffe / Gedanken:}
+
+\vspace{10pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 12 – Nomen analysieren}
+
+Finde alle Nomen im Text und bestimme:
+Kasus, Genus und Numerus.
+
+\textbf{Text:}
+
+Der Schüler öffnet das Fenster und hört die Geräusche der Stadt.  
+Seine Gedanken kreisen um die kommende Prüfung.
+
+\vspace{30pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 13 – Präposition + Kasus}
+
+Bilde zu jeder Präposition einen Satz und bestimme den Fall:
+
+\begin{enumerate}
+\item mit  
+\item ohne  
+\item wegen  
+\item auf  
+\item in  
+\end{enumerate}
+
+\vspace{20pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 14 – Pronomen einsetzen}
+
+Setze passende Pronomen ein:
+
+\begin{enumerate}
+\item Das ist mein Bruder. Das ist \_\_\_\_ Buch.  
+\item Anna sieht Max. Sie sieht \_\_\_\_.  
+\item Wir gehen nach Hause. Kommst du mit \_\_\_\_?  
+\item Der Hund gehört Paul. Es ist \_\_\_\_ Hund.  
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 15 – Profi-Level 🔥}
+
+Analysiere den folgenden Satz vollständig:
+
+Der kleine Junge gibt seiner Schwester ein Geschenk auf dem Schulhof.
+
+Bestimme:
+\begin{itemize}
+\item alle Nomen
+\item deren Kasus
+\item deren Genus
+\item deren Numerus
+\item alle Präpositionen
+\item alle Pronomen
+\end{itemize}
+\newpage
+\section*{Weitere Aufgaben – Adjektive}
+
+% --------------------------------------------------
+\subsection*{Aufgabe 16 – Adjektive erkennen}
+
+Finde alle Adjektive und unterstreiche sie:
+
+\begin{enumerate}
+\item Der große Hund läuft durch den dunklen Wald.
+\item Die kleine Katze sitzt auf dem warmen Fensterbrett.
+\item Ein mutiger Schüler meldet sich im Unterricht.
+\item Das alte Haus steht auf einem steilen Berg.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 17 – Adjektive steigern}
+
+Steigere die Adjektive:
+
+\begin{enumerate}
+\item schnell → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\item schön → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\item klein → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\item laut → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 18 – wie oder als}
+
+Setze \textbf{wie} oder \textbf{als} ein:
+
+\begin{enumerate}
+\item Ein Elefant ist größer \_\_\_\_ ein Hund.
+\item Ich bin genauso schnell \_\_\_\_ mein Bruder.
+\item Dieses Buch ist spannender \_\_\_\_ der Film.
+\item Sie ist so klug \_\_\_\_ ihre Schwester.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 19 – Adjektive richtig anpassen}
+
+Setze die passenden Adjektivformen ein:
+
+\begin{enumerate}
+\item der \_\_\_\_ (klein) Hund
+\item die \_\_\_\_ (alt) Schule
+\item das \_\_\_\_ (neu) Auto
+\item ein \_\_\_\_ (schön) Haus
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 20 – unregelmäßige Steigerung}
+
+Steigere die Adjektive:
+
+\begin{enumerate}
+\item gut → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\item viel → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\item gern → \_\_\_\_\_\_\_\_\_ → \_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 21 – nicht steigerbare Adjektive}
+
+Welche Adjektive lassen sich nicht sinnvoll steigern?
+
+tot, rund, schnell, leer, groß
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 22 – Adjektive im Text}
+
+Finde alle Adjektive und schreibe sie mit dem passenden Nomen auf:
+
+\textbf{Text:}
+
+Der kleine Junge läuft durch den dunklen Wald und sieht einen großen Baum.  
+Neben dem alten Baum liegt ein stiller See.
+
+\vspace{20pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 23 – eigene Sätze}
+
+Schreibe drei eigene Sätze:
+
+\begin{itemize}
+\item Satz 1: mit einem Adjektiv
+\item Satz 2: mit einem gesteigerten Adjektiv
+\item Satz 3: mit einem Vergleich (wie oder als)
+\end{itemize}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 24 – Profi-Level 🔥}
+
+Analysiere den Satz vollständig:
+
+Der kluge Schüler schreibt eine sehr schwierige Klassenarbeit schneller als seine Freunde.
+
+Bestimme:
+\begin{itemize}
+\item alle Adjektive
+\item ihre Steigerungsform
+\item auf welches Nomen sie sich beziehen
+\item ob ein Vergleich vorliegt
 \end{itemize}
 
 \newpage
+\section*{Weitere Aufgaben – Präpositionen}
 
-\section*{Aufgaben -- leicht}
+% --------------------------------------------------
+\subsection*{Aufgabe 25 – Präpositionen einsetzen}
 
-\begin{enumerate}
-    \item Unterstreiche alle Nomen: Der Hund läuft durch den Garten.
-    \item Unterstreiche alle Nomen: Die Schülerin liest ein Buch.
-    \item Unterstreiche alle Nomen: Das kleine Kind spielt mit dem Ball.
-    \item Setze den passenden bestimmten Artikel ein: \_\_\_ Tisch, \_\_\_ Lampe, \_\_\_ Haus.
-    \item Setze den passenden unbestimmten Artikel ein: \_\_\_ Katze, \_\_\_ Auto, \_\_\_ Lehrer.
-    \item Bestimme den Numerus: der Hund, die Bücher, das Kind, die Autos.
-    \item Bilde den Plural: der Tisch, das Kind, die Frau, das Auto.
-    \item Ordne zu: Maskulinum, Femininum oder Neutrum: der Baum, die Schule, das Fenster.
-\end{enumerate}
-
-\section*{Aufgaben -- mittel}
+Setze die passende Präposition ein:
 
 \begin{enumerate}
-    \item Unterstreiche alle Nomen: Am Morgen öffnet Sophie das Fenster und hört die Vögel.
-    \item Unterstreiche alle Nomen: Die Freude über den Sieg war sehr groß.
-    \item Führe die Artikel-Adjektiv-Probe durch: Angst, rennen, Idee, schön.
-    \item Setze den bestimmten oder unbestimmten Artikel ein: Ich sehe \_\_\_ Katze. \_\_\_ Katze sitzt auf dem Zaun.
-    \item Bestimme das Genus: der Computer, die Aufgabe, das Mädchen, die Tür.
-    \item Bestimme das Genus: Schulhof, Haustür, Kinderzimmer, Apfelbaum.
-    \item Bilde den Plural: der Apfel, das Buch, die Blume, der Lehrer.
-    \item Schreibe Singular oder Plural: die Kinder, der Stift, die Mäuse, das Heft.
+\item Ich warte schon \_\_\_\_\_ einer Stunde.
+\item Die Kinder laufen \_\_\_\_\_ den Park.
+\item Er hat Angst \_\_\_\_\_ Hunden.
+\item Wir treffen uns \_\_\_\_\_ der Schule.
+\item Sie fährt jeden Tag \_\_\_\_\_ dem Bus.
 \end{enumerate}
 
-\section*{Aufgaben -- schwer}
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 26 – Fall bestimmen}
+
+Bestimme den Kasus nach der Präposition:
 
 \begin{enumerate}
-    \item Unterstreiche alle Nomen und erkläre bei zwei Wörtern, woran du sie erkannt hast: Die Hoffnung auf eine bessere Note machte Sophie mutig.
-    \item Bestimme Genus und Numerus: die Häuser, das Mädchen, der Gedanke, die Freundinnen.
-    \item Erkläre, warum das Wort \textbf{Mädchen} grammatisch Neutrum ist.
-    \item Bestimme das Genus und erkläre deine Entscheidung: Schultasche, Fensterbank, Haustier, Gartentor.
-    \item Bilde den Plural und markiere die Pluralendung: der Wunsch, das Bild, die Lehrerin, das Thema.
-    \item Welche Wörter haben normalerweise keinen Plural? Milch, Tisch, Glück, Schnee, Buch.
-    \item Verbessere die Fehler: die Buch, das Mädchen ist grammatisch feminin, der Haustür, die Schnees.
-    \item Schreibe drei eigene Sätze. Jeder Satz muss mindestens zwei Nomen enthalten.
+\item mit dem Freund → \_\_\_\_\_\_\_\_\_
+\item ohne den Lehrer → \_\_\_\_\_\_\_\_\_
+\item wegen des Wetters → \_\_\_\_\_\_\_\_\_
+\item auf den Tisch → \_\_\_\_\_\_\_\_\_
+\item auf dem Tisch → \_\_\_\_\_\_\_\_\_
 \end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 27 – Wo oder Wohin?}
+
+Entscheide: Dativ oder Akkusativ
+
+\begin{enumerate}
+\item Das Buch liegt \_\_\_\_ dem Tisch.
+\item Ich lege das Buch \_\_\_\_ den Tisch.
+\item Der Hund läuft \_\_\_\_ den Garten.
+\item Der Hund ist \_\_\_\_ dem Garten.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 28 – richtige Präposition wählen}
+
+Wähle die passende Präposition:
+
+\begin{enumerate}
+\item Wir sprechen \_\_\_\_ das Problem. (über / mit / ohne)
+\item Er denkt oft \_\_\_\_ seine Zukunft. (an / mit / über)
+\item Sie fährt \_\_\_\_ ihre Freundin. (zu / bei / über)
+\item Ich gehe \_\_\_\_ den Supermarkt. (in / auf / mit)
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 29 – eigene Sätze}
+
+Bilde eigene Sätze mit:
+
+\begin{itemize}
+\item einer Präposition mit Dativ
+\item einer Präposition mit Akkusativ
+\item einer Wechselpräposition (Wo?)
+\item einer Wechselpräposition (Wohin?)
+\end{itemize}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 30 – Fehler finden}
+
+Finde und verbessere die Fehler:
+
+\begin{enumerate}
+\item Ich gehe auf dem Supermarkt.
+\item Er wartet seit eine Stunde.
+\item Sie hat Angst mit Spinnen.
+\item Das Buch liegt auf den Tisch.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 31 – Profi-Level 🔥}
+
+Analysiere den Satz vollständig:
+
+Der Schüler legt das Buch auf den Tisch und spricht mit seinem Lehrer über die Aufgabe.
+
+Bestimme:
+\begin{itemize}
+\item alle Präpositionen
+\item den Kasus der Nomen
+\item ob Bewegung oder Ort vorliegt
+\end{itemize}
 
 \newpage
+\section*{Verben mit Präpositionen}
 
-\section*{Lösungen}
+\subsection*{Beispiel}
 
-\subsection*{Lösungen -- leicht}
+Wir laufen durch \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ (ein dichter Wald)
 
-\begin{enumerate}
-    \item Der \textbf{Hund} läuft durch den \textbf{Garten}.
-    \item Die \textbf{Schülerin} liest ein \textbf{Buch}.
-    \item Das kleine \textbf{Kind} spielt mit dem \textbf{Ball}.
-    \item der Tisch, die Lampe, das Haus.
-    \item eine Katze, ein Auto, ein Lehrer.
-    \item der Hund = Singular, die Bücher = Plural, das Kind = Singular, die Autos = Plural.
-    \item der Tisch -- die Tische, das Kind -- die Kinder, die Frau -- die Frauen, das Auto -- die Autos.
-    \item der Baum = Maskulinum, die Schule = Femininum, das Fenster = Neutrum.
-\end{enumerate}
+\textbf{Lösung:}  
+Wir laufen durch einen dichten Wald.
 
-\subsection*{Lösungen -- mittel}
+\begin{merksatz}
+Viele Verben stehen fest mit bestimmten Präpositionen.  
+Diese bestimmen oft den Kasus.
+\end{merksatz}
 
-\begin{enumerate}
-    \item Am \textbf{Morgen} öffnet \textbf{Sophie} das \textbf{Fenster} und hört die \textbf{Vögel}.
-    \item Die \textbf{Freude} über den \textbf{Sieg} war sehr groß.
-    \item Angst: die große Angst, also Nomen. Rennen: funktioniert nicht mit Artikel und Adjektiv, also kein Nomen. Idee: die gute Idee, also Nomen. Schön: kein Nomen.
-    \item Ich sehe \textbf{eine} Katze. \textbf{Die} Katze sitzt auf dem Zaun.
-    \item der Computer = Maskulinum, die Aufgabe = Femininum, das Mädchen = Neutrum, die Tür = Femininum.
-    \item der Schulhof, die Haustür, das Kinderzimmer, der Apfelbaum.
-    \item der Apfel -- die Äpfel, das Buch -- die Bücher, die Blume -- die Blumen, der Lehrer -- die Lehrer.
-    \item die Kinder = Plural, der Stift = Singular, die Mäuse = Plural, das Heft = Singular.
-\end{enumerate}
+\linie
 
-\subsection*{Lösungen -- schwer}
+\subsection*{Aufgabe 32 – Setze richtig ein}
+
+Setze die Wörter in Klammern in der richtigen Form ein:
 
 \begin{enumerate}
-    \item Die \textbf{Hoffnung} auf eine bessere \textbf{Note} machte \textbf{Sophie} mutig.
-    
-    Hoffnung ist ein Nomen, weil man sagen kann: die große Hoffnung.
-    
-    Note ist ein Nomen, weil ein Artikel davorsteht: eine Note.
-    
-    \item die Häuser = Neutrum, Plural; das Mädchen = Neutrum, Singular; der Gedanke = Maskulinum, Singular; die Freundinnen = Femininum, Plural.
-    
-    \item Mädchen ist grammatisch Neutrum, weil der Artikel \textbf{das} ist: das Mädchen.
-    
-    \item die Schultasche, weil es die Tasche heißt. Die Fensterbank, weil es die Bank heißt. Das Haustier, weil es das Tier heißt. Das Gartentor, weil es das Tor heißt.
-    
-    \item der Wunsch -- die Wünsche: Endung -e; das Bild -- die Bilder: Endung -er; die Lehrerin -- die Lehrerinnen: Endung -nen; das Thema -- die Themen: Endung -en.
-    
-    \item Milch, Glück und Schnee haben normalerweise keinen Plural.
-    
-    \item das Buch; das Mädchen ist grammatisch Neutrum; die Haustür; der Schnee.
-    
-    \item Individuelle Lösung.
+\item Der Junge freut sich auf \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (sein Geburtstag)
+\item Sie denkt oft an \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (ihre Freundin)
+\item Wir sprechen über \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (das neue Thema)
+\item Er wartet auf \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (der Bus)
+\item Sie kümmert sich um \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (das kleine Kind)
 \end{enumerate}
+
+\linie
+
+\subsection*{Aufgabe 33 – Kasus erkennen}
+
+Bestimme den Kasus:
+
+\begin{enumerate}
+\item Er wartet auf den Bus → \_\_\_\_\_\_\_\_\_
+\item Sie spricht mit ihrem Lehrer → \_\_\_\_\_\_\_\_\_
+\item Wir denken an die Zukunft → \_\_\_\_\_\_\_\_\_
+\item Er träumt von einem großen Haus → \_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\linie
+
+\subsection*{Aufgabe 34 – richtige Form bilden}
+
+Bilde die richtige Form:
+
+\begin{enumerate}
+\item Der Mann kämpft gegen \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (die Krankheit)
+\item Sie glaubt an \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (der Erfolg)
+\item Er hilft bei \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (die Arbeit)
+\item Wir lachen über \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. (der Witz)
+\end{enumerate}
+
+\linie
+
+\subsection*{Aufgabe 35 – Fehler verbessern}
+
+Finde die Fehler:
+
+\begin{enumerate}
+\item Ich warte auf dem Bus.
+\item Sie denkt über ihre Freundin.
+\item Er hilft den Freund.
+\item Wir sprechen mit das Problem.
+\end{enumerate}
+
+\linie
+
+\subsection*{Aufgabe 36 – eigene Sätze}
+
+Bilde eigene Sätze mit:
+
+\begin{itemize}
+\item sich freuen auf
+\item denken an
+\item sprechen über
+\item helfen bei
+\end{itemize}
+
+\linie
+
+\subsection*{Aufgabe 37 – Profi-Level 🔥}
+
+Analysiere:
+
+Der Schüler freut sich auf die schwierige Prüfung und spricht mit seinem Lehrer über die Aufgaben.
+
+Bestimme:
+\begin{itemize}
+\item alle Verben mit Präposition
+\item den Kasus
+\item die dazugehörigen Nomen
+\end{itemize}
 
 \newpage
+\section*{Weitere Aufgaben – Pronomen}
 
-\section*{Lehrerhinweise}
+% --------------------------------------------------
+\subsection*{Aufgabe 38 – Pronomen einsetzen}
 
-\textbf{Empfohlener Ablauf für 45 Minuten:}
+Setze die passenden Pronomen ein:
 
 \begin{enumerate}
-    \item Einstieg: Schüler nennt bekannte Nomen aus dem Alltag.
-    \item Erklärung: Nomen, Begleitwörter und Artikel-Adjektiv-Probe gemeinsam besprechen.
-    \item Gemeinsame Anwendung: Zwei Beispielsätze untersuchen.
-    \item Übungsphase: Leichte und mittlere Aufgaben bearbeiten lassen.
-    \item Fehlerbesprechung: typische Fehler gezielt erklären.
-    \item Zusatz: starke Schüler bearbeiten schwere Aufgaben.
+\item Ich habe \_\_\_\_ gestern \_\_\_\_ Haare schneiden lassen.
+\item Sie hat \_\_\_\_ Buch vergessen.
+\item Wir treffen \_\_\_\_ morgen im Park.
+\item Er hat \_\_\_\_ Fahrrad repariert.
+\item Du kannst \_\_\_\_ helfen.
 \end{enumerate}
 
-\textbf{Differenzierung:}
+\linie
 
-Schwächere Schüler suchen zuerst nach Artikeln.
+% --------------------------------------------------
+\subsection*{Aufgabe 39 – Pronomen erkennen}
 
-Stärkere Schüler sollen auch abstrakte Nomen wie Hoffnung, Angst, Idee und Wunsch erkennen.
+Unterstreiche alle Pronomen:
 
-\textbf{Typische Probleme im Unterricht:}
+\begin{enumerate}
+\item Ich sehe dich im Garten.
+\item Sie gibt ihm das Buch.
+\item Wir freuen uns auf morgen.
+\item Er bringt ihr einen Stift.
+\end{enumerate}
 
-Viele Schüler erkennen konkrete Nomen schnell, aber abstrakte Nomen schwer.
+\linie
 
-Das grammatische Geschlecht muss klar vom natürlichen Geschlecht getrennt werden.
+% --------------------------------------------------
+\subsection*{Aufgabe 40 – Possessivpronomen}
 
-Bei zusammengesetzten Nomen muss immer wieder betont werden, dass das letzte Wort entscheidend ist.
+Setze die passenden Possessivpronomen ein:
+
+\begin{enumerate}
+\item ich → \_\_\_\_\_\_\_\_\_
+\item du → \_\_\_\_\_\_\_\_\_
+\item er → \_\_\_\_\_\_\_\_\_
+\item wir → \_\_\_\_\_\_\_\_\_
+\item ihr → \_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 41 – Nomen ersetzen}
+
+Ersetze das Nomen durch ein Pronomen:
+
+\begin{enumerate}
+\item der Hund → \_\_\_\_
+\item die Lehrerin → \_\_\_\_
+\item das Kind → \_\_\_\_
+\item die Schüler → \_\_\_\_
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 42 – Reflexivpronomen}
+
+Setze die passenden Reflexivpronomen ein:
+
+\begin{enumerate}
+\item Ich freue \_\_\_\_ auf die Ferien.
+\item Wir treffen \_\_\_\_ nach der Schule.
+\item Sie erinnert \_\_\_\_ an den Termin.
+\item Du wäschst \_\_\_\_ die Hände.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 43 – Kasus bestimmen}
+
+Bestimme den Kasus der Pronomen:
+
+\begin{enumerate}
+\item Er gibt mir das Buch → \_\_\_\_\_\_\_\_\_
+\item Sie sieht dich → \_\_\_\_\_\_\_\_\_
+\item Wir helfen ihnen → \_\_\_\_\_\_\_\_\_
+\item Ich denke an ihn → \_\_\_\_\_\_\_\_\_
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 44 – Fehler finden}
+
+Finde und verbessere die Fehler:
+
+\begin{enumerate}
+\item Ich habe mir mein Haare geschnitten.
+\item Sie hat ihr Buch vergessen, aber ich habe seine dabei.
+\item Wir treffen uns morgen und ihr kommt mit wir.
+\item Er freut mich auf die Ferien.
+\end{enumerate}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 45 – Text ergänzen}
+
+Setze passende Pronomen ein:
+
+\textbf{Text:}
+
+Anna besucht \_\_\_\_ Freundin.  
+\_\_\_\_ freut sich sehr, denn \_\_\_\_ hat lange nicht gesehen.  
+Zusammen gehen \_\_\_\_ in den Park und erzählen \_\_\_\_ alles.
+
+\vspace{15pt}
+
+\linie
+
+% --------------------------------------------------
+\subsection*{Aufgabe 46 – Profi-Level 🔥}
+
+Analysiere:
+
+Der Schüler gibt seiner Freundin sein Buch und erklärt ihr die Aufgabe.
+
+Bestimme:
+\begin{itemize}
+\item alle Pronomen
+\item deren Art (Personal, Possessiv, Reflexiv)
+\item deren Kasus
+\end{itemize}
 
 \end{document}
