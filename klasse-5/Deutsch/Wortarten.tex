@@ -1,0 +1,396 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+\geometry{margin=2cm}
+
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headerfont{Poppins}
+
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{midgray}{RGB}{80,80,80}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{24pt}
+\lhead{{\headerfont\raisebox{-0.25\height}{\includegraphics[height=27pt]{logo.png}}}}
+\rhead{{\headerfont Deutsch -- Klasse 5}}
+\cfoot{{\headerfont\small \thepage}}
+
+\titleformat{\section}
+  {\headerfont\Large\bfseries}
+  {}
+  {0em}
+  {}
+
+\titleformat{\subsection}
+  {\headerfont\large\bfseries}
+  {}
+  {0em}
+  {}
+
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titlespacing*{\subsection}{0pt}{14pt}{5pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setstretch{1.08}
+
+\setlist[itemize]{topsep=4pt,itemsep=3pt}
+\setlist[enumerate]{topsep=4pt,itemsep=7pt}
+
+\newtcolorbox{merksatz}{
+  colback=lightgray,
+  colframe=black,
+  boxrule=0.4pt,
+  arc=2pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt
+}
+
+\newtcolorbox{achtung}{
+  colback=white,
+  colframe=black,
+  boxrule=0.7pt,
+  arc=2pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt
+}
+
+\newcommand{\linie}{\vspace{4pt}\hrule\vspace{10pt}}
+
+\begin{document}
+
+\begin{center}
+    {\headerfont\LARGE\textbf{Wortarten}}\\[4pt]
+    {\headerfont\large Das Nomen und seine Merkmale}
+\end{center}
+
+\vspace{6pt}
+\linie
+
+\section*{Lernziele}
+
+Nach dieser Einheit kannst du:
+
+\begin{itemize}
+    \item Nomen im Satz erkennen.
+    \item Artikel und Adjektive als Hinweise auf Nomen nutzen.
+    \item bestimmte und unbestimmte Artikel unterscheiden.
+    \item das Genus eines Nomens bestimmen.
+    \item Maskulinum, Femininum und Neutrum erklären.
+    \item Singular und Plural unterscheiden.
+    \item Pluralformen von Nomen bilden.
+\end{itemize}
+
+\section*{1. Was ist ein Nomen?}
+
+Nomen sind Wörter für Menschen, Tiere, Pflanzen, Dinge, Gefühle oder Gedanken.
+
+\textbf{Beispiele:}
+
+Mensch: der Lehrer, die Schülerin
+
+Tier: der Hund, die Katze
+
+Ding: der Tisch, das Buch
+
+Gefühl: die Freude, die Angst
+
+Gedanke: die Idee, der Wunsch
+
+\begin{merksatz}
+Nomen schreibt man immer groß.
+\end{merksatz}
+
+\section*{2. Wie erkenne ich ein Nomen?}
+
+Ein Nomen steht oft mit einem Begleitwort. Besonders häufig sind Artikel.
+
+\textbf{Bestimmte Artikel:} der, die, das
+
+\textbf{Unbestimmte Artikel:} ein, eine
+
+Auch Adjektive können vor einem Nomen stehen.
+
+\textbf{Beispiele:}
+
+der Hund
+
+eine schöne Blume
+
+das alte Haus
+
+\subsection*{Die Artikel-Adjektiv-Probe}
+
+Wenn du unsicher bist, ob ein Wort ein Nomen ist, prüfst du:
+
+Kann ich einen Artikel davor setzen?
+
+Kann ich ein Adjektiv davor setzen?
+
+\textbf{Beispiel 1: Freude}
+
+die Freude
+
+die große Freude
+
+Also ist \textbf{Freude} ein Nomen.
+
+\textbf{Beispiel 2: laufen}
+
+der laufen
+
+der schnelle laufen
+
+Das funktioniert nicht. Also ist \textbf{laufen} kein Nomen.
+
+\begin{merksatz}
+Wenn ein Artikel und ein Adjektiv sinnvoll vor ein Wort passen, ist es meistens ein Nomen.
+\end{merksatz}
+
+\section*{3. Bestimmte und unbestimmte Artikel}
+
+Bestimmte Artikel benutzt man, wenn eine bestimmte Person oder Sache gemeint ist.
+
+\textbf{Beispiel:}
+
+Der Hund bellt laut.
+
+Hier weiß man, welcher Hund gemeint ist.
+
+Unbestimmte Artikel benutzt man, wenn eine Person oder Sache noch nicht genau bestimmt ist.
+
+\textbf{Beispiel:}
+
+Ich sehe einen Hund.
+
+Hier ist noch nicht klar, welcher Hund gemeint ist.
+
+\section*{4. Das Genus}
+
+Jedes Nomen hat ein grammatisches Geschlecht. Dieses grammatische Geschlecht nennt man \textbf{Genus}.
+
+Es gibt drei Genera:
+
+\textbf{Maskulinum:} der Mann, der Tisch
+
+\textbf{Femininum:} die Frau, die Lampe
+
+\textbf{Neutrum:} das Kind, das Haus
+
+\begin{achtung}
+Das grammatische Geschlecht ist nicht immer dasselbe wie das natürliche Geschlecht.
+
+Beispiel: \textbf{das Mädchen}
+
+Ein Mädchen ist natürlich weiblich. Grammatisch ist das Wort aber Neutrum, weil der Artikel \textbf{das} ist.
+\end{achtung}
+
+\subsection*{Zusammengesetzte Nomen}
+
+Bei zusammengesetzten Nomen bestimmt immer das letzte Wort das Genus.
+
+\textbf{Beispiele:}
+
+die Schule + der Hof = der Schulhof
+
+das Haus + die Tür = die Haustür
+
+der Apfel + der Baum = der Apfelbaum
+
+\begin{merksatz}
+Bei zusammengesetzten Nomen zählt für das Genus immer das letzte Wort.
+\end{merksatz}
+
+\section*{5. Der Numerus}
+
+Der Numerus gibt an, ob ein Nomen in der Einzahl oder Mehrzahl steht.
+
+\textbf{Singular} bedeutet Einzahl.
+
+\textbf{Plural} bedeutet Mehrzahl.
+
+\textbf{Beispiele:}
+
+der Hund = Singular
+
+die Hunde = Plural
+
+das Buch = Singular
+
+die Bücher = Plural
+
+\subsection*{Typische Pluralendungen}
+
+Nomen können verschiedene Pluralendungen haben.
+
+\textbf{-e:} der Tisch -- die Tische
+
+\textbf{-er:} das Kind -- die Kinder
+
+\textbf{-en:} die Frau -- die Frauen
+
+\textbf{-n:} die Blume -- die Blumen
+
+\textbf{-s:} das Auto -- die Autos
+
+Manche Nomen verändern auch den Vokal:
+
+der Apfel -- die Äpfel
+
+das Buch -- die Bücher
+
+\begin{achtung}
+Nicht jedes Nomen hat eine Pluralform.
+
+Beispiele: der Schnee, die Milch, das Glück, die Ruhe
+\end{achtung}
+
+\section*{6. Typische Fehler}
+
+\begin{itemize}
+    \item Viele Schüler glauben, dass nur Dinge Nomen sind, die man anfassen kann. Das ist falsch. Auch Gefühle und Gedanken können Nomen sein.
+    \item Viele Schüler verwechseln natürliches und grammatisches Geschlecht.
+    \item Bei zusammengesetzten Nomen wird oft fälschlich der erste Teil betrachtet.
+    \item Pluralformen werden oft falsch gebildet, weil es im Deutschen verschiedene Pluralendungen gibt.
+\end{itemize}
+
+\newpage
+
+\section*{Aufgaben -- leicht}
+
+\begin{enumerate}
+    \item Unterstreiche alle Nomen: Der Hund läuft durch den Garten.
+    \item Unterstreiche alle Nomen: Die Schülerin liest ein Buch.
+    \item Unterstreiche alle Nomen: Das kleine Kind spielt mit dem Ball.
+    \item Setze den passenden bestimmten Artikel ein: \_\_\_ Tisch, \_\_\_ Lampe, \_\_\_ Haus.
+    \item Setze den passenden unbestimmten Artikel ein: \_\_\_ Katze, \_\_\_ Auto, \_\_\_ Lehrer.
+    \item Bestimme den Numerus: der Hund, die Bücher, das Kind, die Autos.
+    \item Bilde den Plural: der Tisch, das Kind, die Frau, das Auto.
+    \item Ordne zu: Maskulinum, Femininum oder Neutrum: der Baum, die Schule, das Fenster.
+\end{enumerate}
+
+\section*{Aufgaben -- mittel}
+
+\begin{enumerate}
+    \item Unterstreiche alle Nomen: Am Morgen öffnet Sophie das Fenster und hört die Vögel.
+    \item Unterstreiche alle Nomen: Die Freude über den Sieg war sehr groß.
+    \item Führe die Artikel-Adjektiv-Probe durch: Angst, rennen, Idee, schön.
+    \item Setze den bestimmten oder unbestimmten Artikel ein: Ich sehe \_\_\_ Katze. \_\_\_ Katze sitzt auf dem Zaun.
+    \item Bestimme das Genus: der Computer, die Aufgabe, das Mädchen, die Tür.
+    \item Bestimme das Genus: Schulhof, Haustür, Kinderzimmer, Apfelbaum.
+    \item Bilde den Plural: der Apfel, das Buch, die Blume, der Lehrer.
+    \item Schreibe Singular oder Plural: die Kinder, der Stift, die Mäuse, das Heft.
+\end{enumerate}
+
+\section*{Aufgaben -- schwer}
+
+\begin{enumerate}
+    \item Unterstreiche alle Nomen und erkläre bei zwei Wörtern, woran du sie erkannt hast: Die Hoffnung auf eine bessere Note machte Sophie mutig.
+    \item Bestimme Genus und Numerus: die Häuser, das Mädchen, der Gedanke, die Freundinnen.
+    \item Erkläre, warum das Wort \textbf{Mädchen} grammatisch Neutrum ist.
+    \item Bestimme das Genus und erkläre deine Entscheidung: Schultasche, Fensterbank, Haustier, Gartentor.
+    \item Bilde den Plural und markiere die Pluralendung: der Wunsch, das Bild, die Lehrerin, das Thema.
+    \item Welche Wörter haben normalerweise keinen Plural? Milch, Tisch, Glück, Schnee, Buch.
+    \item Verbessere die Fehler: die Buch, das Mädchen ist grammatisch feminin, der Haustür, die Schnees.
+    \item Schreibe drei eigene Sätze. Jeder Satz muss mindestens zwei Nomen enthalten.
+\end{enumerate}
+
+\newpage
+
+\section*{Lösungen}
+
+\subsection*{Lösungen -- leicht}
+
+\begin{enumerate}
+    \item Der \textbf{Hund} läuft durch den \textbf{Garten}.
+    \item Die \textbf{Schülerin} liest ein \textbf{Buch}.
+    \item Das kleine \textbf{Kind} spielt mit dem \textbf{Ball}.
+    \item der Tisch, die Lampe, das Haus.
+    \item eine Katze, ein Auto, ein Lehrer.
+    \item der Hund = Singular, die Bücher = Plural, das Kind = Singular, die Autos = Plural.
+    \item der Tisch -- die Tische, das Kind -- die Kinder, die Frau -- die Frauen, das Auto -- die Autos.
+    \item der Baum = Maskulinum, die Schule = Femininum, das Fenster = Neutrum.
+\end{enumerate}
+
+\subsection*{Lösungen -- mittel}
+
+\begin{enumerate}
+    \item Am \textbf{Morgen} öffnet \textbf{Sophie} das \textbf{Fenster} und hört die \textbf{Vögel}.
+    \item Die \textbf{Freude} über den \textbf{Sieg} war sehr groß.
+    \item Angst: die große Angst, also Nomen. Rennen: funktioniert nicht mit Artikel und Adjektiv, also kein Nomen. Idee: die gute Idee, also Nomen. Schön: kein Nomen.
+    \item Ich sehe \textbf{eine} Katze. \textbf{Die} Katze sitzt auf dem Zaun.
+    \item der Computer = Maskulinum, die Aufgabe = Femininum, das Mädchen = Neutrum, die Tür = Femininum.
+    \item der Schulhof, die Haustür, das Kinderzimmer, der Apfelbaum.
+    \item der Apfel -- die Äpfel, das Buch -- die Bücher, die Blume -- die Blumen, der Lehrer -- die Lehrer.
+    \item die Kinder = Plural, der Stift = Singular, die Mäuse = Plural, das Heft = Singular.
+\end{enumerate}
+
+\subsection*{Lösungen -- schwer}
+
+\begin{enumerate}
+    \item Die \textbf{Hoffnung} auf eine bessere \textbf{Note} machte \textbf{Sophie} mutig.
+    
+    Hoffnung ist ein Nomen, weil man sagen kann: die große Hoffnung.
+    
+    Note ist ein Nomen, weil ein Artikel davorsteht: eine Note.
+    
+    \item die Häuser = Neutrum, Plural; das Mädchen = Neutrum, Singular; der Gedanke = Maskulinum, Singular; die Freundinnen = Femininum, Plural.
+    
+    \item Mädchen ist grammatisch Neutrum, weil der Artikel \textbf{das} ist: das Mädchen.
+    
+    \item die Schultasche, weil es die Tasche heißt. Die Fensterbank, weil es die Bank heißt. Das Haustier, weil es das Tier heißt. Das Gartentor, weil es das Tor heißt.
+    
+    \item der Wunsch -- die Wünsche: Endung -e; das Bild -- die Bilder: Endung -er; die Lehrerin -- die Lehrerinnen: Endung -nen; das Thema -- die Themen: Endung -en.
+    
+    \item Milch, Glück und Schnee haben normalerweise keinen Plural.
+    
+    \item das Buch; das Mädchen ist grammatisch Neutrum; die Haustür; der Schnee.
+    
+    \item Individuelle Lösung.
+\end{enumerate}
+
+\newpage
+
+\section*{Lehrerhinweise}
+
+\textbf{Empfohlener Ablauf für 45 Minuten:}
+
+\begin{enumerate}
+    \item Einstieg: Schüler nennt bekannte Nomen aus dem Alltag.
+    \item Erklärung: Nomen, Begleitwörter und Artikel-Adjektiv-Probe gemeinsam besprechen.
+    \item Gemeinsame Anwendung: Zwei Beispielsätze untersuchen.
+    \item Übungsphase: Leichte und mittlere Aufgaben bearbeiten lassen.
+    \item Fehlerbesprechung: typische Fehler gezielt erklären.
+    \item Zusatz: starke Schüler bearbeiten schwere Aufgaben.
+\end{enumerate}
+
+\textbf{Differenzierung:}
+
+Schwächere Schüler suchen zuerst nach Artikeln.
+
+Stärkere Schüler sollen auch abstrakte Nomen wie Hoffnung, Angst, Idee und Wunsch erkennen.
+
+\textbf{Typische Probleme im Unterricht:}
+
+Viele Schüler erkennen konkrete Nomen schnell, aber abstrakte Nomen schwer.
+
+Das grammatische Geschlecht muss klar vom natürlichen Geschlecht getrennt werden.
+
+Bei zusammengesetzten Nomen muss immer wieder betont werden, dass das letzte Wort entscheidend ist.
+
+\end{document}
